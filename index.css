@@ -93,3 +93,19 @@ body{
 .button:focus{
     background-color: white;
 }
+
+@media (max-width:700px){
+    body{
+        position: absolute;
+        place-items: center;
+        padding-right: 0; /* Remove right padding */
+    }
+
+    .card{
+        padding: 5rem 0 0; /* Reduce top padding */
+    }
+
+    .card-content{
+        --padding: 1rem; /* Reduce padding */
+    }
+}
